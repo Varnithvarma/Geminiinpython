@@ -2,7 +2,7 @@ import pathlib
 import textwrap
 import google.generativeai as genai
 
-user_data = "AIzaSyCA2tZgfTMFQgcMH-_DMkYDk0v7pL2vGF4"
+user_data = "ENTER API KEY"
 GOOGLE_API_KEY = user_data
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
